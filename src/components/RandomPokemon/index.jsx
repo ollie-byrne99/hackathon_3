@@ -23,8 +23,7 @@ function FetchRandom() {
 
   return (
     <div>
-      <h2>Random Pokemon:</h2>
-      {randomPokemon ? <p>{randomPokemon.name}</p> : <p>Loading...</p>}
+      {randomPokemon ? <p id="randPokemon">{randomPokemon.name}</p> : <p>Loading...</p>}
     </div>
   );
 }
