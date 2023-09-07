@@ -8,6 +8,7 @@ const PageWrapper = ({ children }) => {
                 <nav>
                     <NavLink to="/">Home</NavLink>
                     <NavLink to="/pokemon" >PokéList</NavLink>
+                    <NavLink to="/random" >Random</NavLink>
                     <NavLink to="/about" >About</NavLink>
                 </nav>
             </header>

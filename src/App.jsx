@@ -13,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Pages.HomePage />} />
         <Route path="/pokemon" element={<Pages.PokemonPage />} />
+        <Route path="/random" element={<Pages.RandomPage />} />
         <Route path="/about" element={<Pages.AboutPage />} />
         <Route path="*" element={<Pages.NotFoundPage />} />
       </Routes>
